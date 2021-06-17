@@ -11,7 +11,8 @@ public class SumTwoNumbers {
    * @return The result of a + b
    */
   public static Integer sum(Integer a, Integer b) {
-    //TODO: Implement me
-    return null;
+    a = a != null ? a : 0;
+    b = b != null ? b : 0;
+    return a + b;
   }
 }
